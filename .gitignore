@@ -1,0 +1,97 @@
+# Git Ignore Rules for EduShare
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# PHP IDE specific files
+.phpstorm.meta.php
+_ide_helper.php
+
+# Dependency directories
+vendor/
+node_modules/
+composer.lock
+
+# Build and temporary files
+*.log
+build/
+dist/
+tmp/
+temp/
+
+# Database files
+*.sql
+!database/schema.sql
+*.db
+*.sqlite
+*.sqlite3
+
+# Sensitive files
+config/database.php
+config/app.php
+.htaccess
+
+# Uploaded files and temporary uploads
+uploads/*
+!uploads/.gitkeep
+temp_uploads/
+cache/
+
+# Test files
+tests/temp/
+phpunit.xml
+.phpunit.result.cache
+coverage/
+.coverage
+
+# Package managers
+package-lock.json
+yarn.lock
+
+# OS generated files
+._*
+.Spotlight-V100
+.Trashes
+
+# Development files
+*.pem
+*.key
+*.crt
+debug.log
+error.log
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# PHP-related
+*.phtml
+.php_cs
+.php_cs.cache
+
+# Project specific
+config.php
+settings.php
+local_config.php
